@@ -44,13 +44,13 @@
 //            
 //        }];
 ////    }
-//    HKShareTool *shareTool = [HKShareTool shareInstance];
-//    [shareTool shareImageWithImageName:@"13.png" ShareType:HKShareTypeSinaWeibo ViewController:self];
+    HKShareTool *shareTool = [HKShareTool shareInstance];
+    [shareTool shareImageWithImageName:@"13.png" ShareType:HKShareTypeSinaWeibo ViewController:self];
     
 //    HKShareTool *shareTool = [HKShareTool shareInstance];
 //    [shareTool shareImageWithImageName:@"13.png" ShareType:HKShareTypeWechatMoment ViewController:self];
-    HKShareTool *shareTool = [HKShareTool shareInstance];
-    [shareTool shareLinkWithUrlStr:@"http://weibo.com/p/1001603849727862021333?rightmod=1&wvr=6&mod=noticeboard" shareType:HKShareTypeSinaWeibo ViewController:self];
+//    HKShareTool *shareTool = [HKShareTool shareInstance];
+//    [shareTool shareLinkWithUrlStr:@"http://weibo.com/p/1001603849727862021333?rightmod=1&wvr=6&mod=noticeboard" shareType:HKShareTypeSinaWeibo ViewController:self];
     
 //    NSArray* permissions = [NSArray arrayWithObjects:
 //                            kOPEN_PERMISSION_GET_USER_INFO,
