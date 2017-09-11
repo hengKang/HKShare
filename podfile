@@ -1,0 +1,5 @@
+target 'HKShare' do
+    use_frameworks!
+	pod 'TwitterKit'
+	pod 'WechatOpenSDK'
+end

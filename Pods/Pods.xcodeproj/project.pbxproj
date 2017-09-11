@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49730FB6C816657F9F5421A97597C66C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6321197793761FCFD23758F000522C78 /* Pods-HKShare-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E07301BBA4A5BF37235B413792418B1D /* Pods-HKShare-dummy.m */; };
+		D1A408464746785A229AC9AD3AF41992 /* Pods-HKShare-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80F8D4147A4A7F5B7274CDEBA7C6F87F /* Pods-HKShare-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FB1166A8EE358873C5BB795C93905AA /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.8.0/WXApiObject.h; sourceTree = "<group>"; };
+		5B120E95DF7E981DBDCAEA8E6EDF9969 /* Pods-HKShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HKShare.debug.xcconfig"; sourceTree = "<group>"; };
+		65EE9670FE09AF8F521AF8DA6C9382A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		675BD4A1B75BF11C0ECF2672216CF994 /* Pods-HKShare-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HKShare-acknowledgements.markdown"; sourceTree = "<group>"; };
+		68F7C791091135F586471F92287B4FA5 /* TwitterShareExtensionUIResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterShareExtensionUIResources.bundle; path = iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle; sourceTree = "<group>"; };
+		6C13EB96E6E7B25D15CE4DA9534DC1A7 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.8.0/libWeChatSDK.a; sourceTree = "<group>"; };
+		80F8D4147A4A7F5B7274CDEBA7C6F87F /* Pods-HKShare-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HKShare-umbrella.h"; sourceTree = "<group>"; };
+		81189D28B924780ABDD1BDCBEA8C5B4D /* Pods-HKShare-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HKShare-resources.sh"; sourceTree = "<group>"; };
+		8D8DD16199A6E1EB5DEF923DE925FBCB /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = iOS/TwitterCore.framework; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F821B1E6D5858B636F952B2EAA1310E /* Pods_HKShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HKShare.framework; path = "Pods-HKShare.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A33A7BA424F3B7DC653DC2C7F2C9022F /* Pods-HKShare-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HKShare-frameworks.sh"; sourceTree = "<group>"; };
+		A5416181D9C5932325263677F4DAE040 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = iOS/TwitterKit.framework/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		A83B15A35318555E6AC946EE69620C8D /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.8.0/WechatAuthSDK.h; sourceTree = "<group>"; };
+		AD8007D532E6C4E8528785FA7600C87F /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.8.0/WXApi.h; sourceTree = "<group>"; };
+		BBF045B555D726908887771E0BC51F1A /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = iOS/TwitterKit.framework; sourceTree = "<group>"; };
+		DAFEE80191772E776F2462086F0F184C /* Pods-HKShare-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HKShare-acknowledgements.plist"; sourceTree = "<group>"; };
+		E07301BBA4A5BF37235B413792418B1D /* Pods-HKShare-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HKShare-dummy.m"; sourceTree = "<group>"; };
+		E475E6C2E8129021E3F692E884C6C7FD /* Pods-HKShare.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HKShare.modulemap"; sourceTree = "<group>"; };
+		F2BE35BCB7F834BD61404F4F4D4D95ED /* Pods-HKShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HKShare.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E10A0727B87621595C1875E5F31A55E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49730FB6C816657F9F5421A97597C66C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D540310233FD0DB834ECBD153E421440 /* Pods */,
+				DE72F3CF93BD0AADAAC6A40C52AF0C99 /* Products */,
+				EBCF894A1E4A256AD1B228A439816599 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82057089AA0EADE008C47DFF8D420621 /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A83B15A35318555E6AC946EE69620C8D /* WechatAuthSDK.h */,
+				AD8007D532E6C4E8528785FA7600C87F /* WXApi.h */,
+				0FB1166A8EE358873C5BB795C93905AA /* WXApiObject.h */,
+				C9D94FE02642E8C69A229DDA8093E982 /* Frameworks */,
+			);
+			name = WechatOpenSDK;
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		9E5DB91FD899D90E263AD3EE41759AF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBF045B555D726908887771E0BC51F1A /* TwitterKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9D94FE02642E8C69A229DDA8093E982 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C13EB96E6E7B25D15CE4DA9534DC1A7 /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1100A80D1E9ADCC48984673D23F5080 /* Pods-HKShare */ = {
+			isa = PBXGroup;
+			children = (
+				65EE9670FE09AF8F521AF8DA6C9382A6 /* Info.plist */,
+				E475E6C2E8129021E3F692E884C6C7FD /* Pods-HKShare.modulemap */,
+				675BD4A1B75BF11C0ECF2672216CF994 /* Pods-HKShare-acknowledgements.markdown */,
+				DAFEE80191772E776F2462086F0F184C /* Pods-HKShare-acknowledgements.plist */,
+				E07301BBA4A5BF37235B413792418B1D /* Pods-HKShare-dummy.m */,
+				A33A7BA424F3B7DC653DC2C7F2C9022F /* Pods-HKShare-frameworks.sh */,
+				81189D28B924780ABDD1BDCBEA8C5B4D /* Pods-HKShare-resources.sh */,
+				80F8D4147A4A7F5B7274CDEBA7C6F87F /* Pods-HKShare-umbrella.h */,
+				5B120E95DF7E981DBDCAEA8E6EDF9969 /* Pods-HKShare.debug.xcconfig */,
+				F2BE35BCB7F834BD61404F4F4D4D95ED /* Pods-HKShare.release.xcconfig */,
+			);
+			name = "Pods-HKShare";
+			path = "Target Support Files/Pods-HKShare";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D540310233FD0DB834ECBD153E421440 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC4F6FEB2F94A1013163E34C4ED197CF /* TwitterCore */,
+				DD97C84E84B6FF795831DEC2BC78F5AD /* TwitterKit */,
+				82057089AA0EADE008C47DFF8D420621 /* WechatOpenSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC4F6FEB2F94A1013163E34C4ED197CF /* TwitterCore */ = {
+			isa = PBXGroup;
+			children = (
+				FEAA93C7C46310F144580506EEAF666C /* Frameworks */,
+			);
+			name = TwitterCore;
+			path = TwitterCore;
+			sourceTree = "<group>";
+		};
+		DD97C84E84B6FF795831DEC2BC78F5AD /* TwitterKit */ = {
+			isa = PBXGroup;
+			children = (
+				9E5DB91FD899D90E263AD3EE41759AF1 /* Frameworks */,
+				ED31457FD56276FCE8496AD4E14C263D /* Resources */,
+			);
+			name = TwitterKit;
+			path = TwitterKit;
+			sourceTree = "<group>";
+		};
+		DE72F3CF93BD0AADAAC6A40C52AF0C99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F821B1E6D5858B636F952B2EAA1310E /* Pods_HKShare.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBCF894A1E4A256AD1B228A439816599 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1100A80D1E9ADCC48984673D23F5080 /* Pods-HKShare */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ED31457FD56276FCE8496AD4E14C263D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A5416181D9C5932325263677F4DAE040 /* TwitterKitResources.bundle */,
+				68F7C791091135F586471F92287B4FA5 /* TwitterShareExtensionUIResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FEAA93C7C46310F144580506EEAF666C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D8DD16199A6E1EB5DEF923DE925FBCB /* TwitterCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B48613FE68E007F3FAC0B83D1FB2899A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A408464746785A229AC9AD3AF41992 /* Pods-HKShare-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3A590B92296260FCA38A0D2E9CACB5AA /* Pods-HKShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B159F18EAD22CAB036640D71A3D61C4 /* Build configuration list for PBXNativeTarget "Pods-HKShare" */;
+			buildPhases = (
+				7445C00D93472499351DBB0FA73F8DE5 /* Sources */,
+				6E10A0727B87621595C1875E5F31A55E /* Frameworks */,
+				B48613FE68E007F3FAC0B83D1FB2899A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HKShare";
+			productName = "Pods-HKShare";
+			productReference = 9F821B1E6D5858B636F952B2EAA1310E /* Pods_HKShare.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DE72F3CF93BD0AADAAC6A40C52AF0C99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A590B92296260FCA38A0D2E9CACB5AA /* Pods-HKShare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7445C00D93472499351DBB0FA73F8DE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6321197793761FCFD23758F000522C78 /* Pods-HKShare-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DDD39956725DE89660AD26AB505089C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B120E95DF7E981DBDCAEA8E6EDF9969 /* Pods-HKShare.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HKShare/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HKShare/Pods-HKShare.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HKShare;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF26A3C5B6EDA309192C6025F703DE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F7CBA6F4FDC6FF2E4CCFB9135C56924B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2BE35BCB7F834BD61404F4F4D4D95ED /* Pods-HKShare.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HKShare/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HKShare/Pods-HKShare.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HKShare;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF26A3C5B6EDA309192C6025F703DE0A /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B159F18EAD22CAB036640D71A3D61C4 /* Build configuration list for PBXNativeTarget "Pods-HKShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DDD39956725DE89660AD26AB505089C /* Debug */,
+				F7CBA6F4FDC6FF2E4CCFB9135C56924B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
